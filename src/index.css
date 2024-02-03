@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rotated{
+    transition: transform .5s ;
+
+}
+
+.rotated:hover{
+    transform: rotate(180deg) scale(1.1) ;
+}
+
+.shadowed{
+    transition: box-shadow 0.3s ease;
+}
+
+.shadowed:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
