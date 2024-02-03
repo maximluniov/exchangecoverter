@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App bg-slate-100 min-h-lvh font-bold">
       <Header {...rates} />
-      <div className="flex flex-col items-center">You can convert chosen values у</div>
+      <div className="fam flex flex-col items-center text-4xl font-bold p-8">You can convert chosen values below</div>
       <Compare {...rates} />
       <Footer></Footer>
     </div>
